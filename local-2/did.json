@@ -1,0 +1,32 @@
+{
+  "id": "did:web:rbrazhnyk.github.io:pqc-dids:local-2",
+  "@context": "https://w3id.org/security/v2",
+  "publicKey": [
+    {
+      "id": "did:web:rbrazhnyk.github.io:pqc-dids:local-2#11ff36d29be354b2ecd88a4fad9d3895-52bf03a766167fd1",
+      "usage": "signing",
+      "type": "Secp256k1VerificationKey2018",
+      "publicKeyHex": "03fdda28dc7a540134cbfba26d19fad3afe55ae6832d8046502f41575d194d7a8a"
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:rbrazhnyk.github.io:pqc-dids:local-2#11ff36d29be354b2ecd88a4fad9d3895-52bf03a766167fd1",
+      "controller": "did:web:rbrazhnyk.github.io:pqc-dids:local-2",
+      "type": "Secp256k1VerificationKey2018",
+      "publicKeyHex": "03fdda28dc7a540134cbfba26d19fad3afe55ae6832d8046502f41575d194d7a8a",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "_doo3HpUATTL-6JtGfrTr-Va5oMtgEZQL0FXXRlNeop2",
+        "y": "di6aJ3MDwhBUfZVOSzjt5FqM1v6V7HvFgTtIf4jF5z8"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:rbrazhnyk.github.io:pqc-dids:local-2#11ff36d29be354b2ecd88a4fad9d3895-52bf03a766167fd1"
+  ],
+  "assertionMethod": [
+    "did:web:rbrazhnyk.github.io:pqc-dids:local-2#11ff36d29be354b2ecd88a4fad9d3895-52bf03a766167fd1"
+  ]
+}
