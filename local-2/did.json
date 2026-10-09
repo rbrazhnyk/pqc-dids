@@ -1,32 +1,30 @@
 {
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "assertionMethod": [
+    "did:web:rbrazhnyk.github.io:pqc-dids:local-2#ITye3SnUMwRbUv3TMaULCY3uDEYFqflgbBMXV-ePaN8"
+  ],
+  "authentication": [
+    "did:web:rbrazhnyk.github.io:pqc-dids:local-2#ITye3SnUMwRbUv3TMaULCY3uDEYFqflgbBMXV-ePaN8"
+  ],
   "id": "did:web:rbrazhnyk.github.io:pqc-dids:local-2",
-  "@context": "https://w3id.org/security/v2",
-  "publicKey": [
-    {
-      "id": "did:web:rbrazhnyk.github.io:pqc-dids:local-2#11ff36d29be354b2ecd88a4fad9d3895-52bf03a766167fd1",
-      "usage": "signing",
-      "type": "Secp256k1VerificationKey2018",
-      "publicKeyHex": "03fdda28dc7a540134cbfba26d19fad3afe55ae6832d8046502f41575d194d7a8a"
-    }
+  "keyAgreement": [
+    "did:web:rbrazhnyk.github.io:pqc-dids:local-2#_bfu36e6tostYrxYERCALaNAvcdI2lygYhMwn2GO1iw"
   ],
   "verificationMethod": [
     {
-      "id": "did:web:rbrazhnyk.github.io:pqc-dids:local-2#11ff36d29be354b2ecd88a4fad9d3895-52bf03a766167fd1",
       "controller": "did:web:rbrazhnyk.github.io:pqc-dids:local-2",
-      "type": "Secp256k1VerificationKey2018",
-      "publicKeyHex": "03fdda28dc7a540134cbfba26d19fad3afe55ae6832d8046502f41575d194d7a8a",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "secp256k1",
-        "x": "_doo3HpUATTL-6JtGfrTr-Va5oMtgEZQL0FXXRlNeop2",
-        "y": "di6aJ3MDwhBUfZVOSzjt5FqM1v6V7HvFgTtIf4jF5z8"
-      }
+      "id": "did:web:rbrazhnyk.github.io:pqc-dids:local-2#ITye3SnUMwRbUv3TMaULCY3uDEYFqflgbBMXV-ePaN8",
+      "publicKeyMultibase": "z4sdnMc3P3TEZxicyFPNc6QVWjAWFnjsULiF8vTDTk5brpkJfSXjBSb5f6YTYeRoUBrqCR6PZdmsUve4Z1zYs6AGo8TS48K2N4otUPbKUEi49MzpPKBoJj68znrkpndYPgpwbpaBfPFKLJUxCYX8MPiezHiJkxyJJDbRaaH2RtnJP6xg9heHXHf7QJ1AsL312qEgXenmH8XJZGSSUUuZ2hGatgZU9WrQ9dxJMcFaC2ZkpoMerirs6kyxpm9C78iLYuw44t6tuk4P88Jwu2uteqxKka3mPPb951nvVAbxb8w7HU2WAPwHB5AVdL5rvQXBLnknHUhP3v7rbmnjizPGLaa8GSxFmFuDunfL2RHWhe3EPCPo3tSyaC7BQvwG59VnNn6C6t4UKzT2NR9ayobgFc4Y9yfFXb1156VSvmAEhYJgvVHdmviSoy8mqwj4Hgx4AXxppu97JXnPxQxga6yk4Uk3grDxd8LHPMRRMN91kbqLZ2ZvC6MzQCgeF35eBNZS5GzFnUYi4YutGCuQ7dixK28KapBTEf63TM57PvL7bX35zsxo687XHeCYGPsojs74gFf8HVQNLK96u2gqtdS29qWRavrpX6Bne4QdiqYBBTr6625RVhcSGRYQGV5ossGkLTKB6iJmkqymD7yEcsPdszaz1a3m3Q1CDL2r1teoSLmvvyWRBmSxYQFpeQbkNdKE2menwpmfD1mDZQmeHBwnfnLEZiSpDzK66UjwjsPauYbkkNHR7t4cDuqfMk5jkUbBYMgxD97qQ5SoTBNLoafMZD77JDi5Ac71BoGbPdmCohPkrHRZ8XqpQpZhYfsLLx2KTkAVxeRhsRkttKwB36hzr9WfxUGazr6ioU3v94XjFXia9RJWnbmDA9C3tzZwB5AJ7WitNHXvzyHG3PB1y9Yx6xP4U1tKUhkRGoMg2n11xH8PpP2dqLeC2B7xVsrFWb53Rq1erbKBbpqBJDQcgPP3wN6876s3UcGfkbzJunDAgsLd7mvvydZbTQdxfnqpkWiNAAyhedNV6J5rMMybwgXcfnnAPdg6ooVH79YAkNG8itBMj9DtiwCwNFfZnQZiAP91F4hs2PiN55MiDmrxTDzR9sU4WGpCtMKavqPoNKwHsumMgwDedbLamKRMkcvBg3b2bfHeAVQmDiWpGkFpniGSMSieejQU6L5vBTs84o1js6gAdwYgTeVEx2ETr2LuzPAFBbcwxExkKJTe9N6tWXpx93yXwBdeDzPsSZa4uYNq8kXAssVto8uEp37qSCSoHsNewvE5xoyUQJeQrTWYC82dPyaEQqcxeuTetSdhsBCXfRVD6Gdaf6geZ7p7d9hNsHRK4sT5ds2MDxVDw4zTEsUE1hRF8UMY2r8BvhtAFwewAekuxUMGgLcpfMiykKds5UmpPXjATkL1Mbb3cHwFbbcoEtkeVpdvArgxJh6zDz8Bzhk3YxamS6ztnB8FosSc8WvbvN934VCcZtp5rfiD78mUV18Bau44Dz3vZLpMS7hE5aNLi9CvPSnZLrAQD97frFSEmBmvK5PyY7DLh9E982GswakJBRF7QcbrVNL7Gu4vBcGZAkkpjzMhcdiDebaLFAHVD92WV7Qz45p2pPLTHtDKReCVQJes1wj1Z992MELRuQh5i5CXz9VAo7ziVEM7H571zLGc9gNm6e4J91kZRkMKoSNKqEBduRjEgJDMiEDXtUht7rcMc8Z5uVe3vktvD6ahuBgbzUE2SHfCsDDPLeaTVypJywkPYEbi3R91LBpGYEmqZRihZGEapzgLkf15JEQyzWj9",
+      "type": "Multikey"
+    },
+    {
+      "controller": "did:web:rbrazhnyk.github.io:pqc-dids:local-2",
+      "id": "did:web:rbrazhnyk.github.io:pqc-dids:local-2#_bfu36e6tostYrxYERCALaNAvcdI2lygYhMwn2GO1iw",
+      "publicKeyMultibase": "z4sdft6K4WaLvkMnFHwDQg3bAWZGEEo4xxNdJNgLYkga5z1yjXdFgga5Fm1US7tSMLnosfyGhzUprKQ9kUnxbWS96pw67MkyPVTirfZqSTomYXQ5bdfwW2c7aPY9HkErZ5mXqygneLubkeX2hsuWUy1WVnUc8VWumVD5Hb39yL9UaZezESqJioWHF79wgU7SptWmXJT41nzzPVL2UYqU1spv15taxZuHdY5HV9D2xmmBiQpD1FVSxSe7S92Zmb7MBsSrVoN1MEafVtAkzG9wwncnL7qv7BxyhcXYDPhAVTe9SnoqtizRSLeZZwoj99EahoHD2F77remCxHo33JcZY6XeexetDscmTSBgN1moYakq7aasdQSDQgQUsx1RVEyz3NxqXpkkQKezkEywKYXkwz6Zot9XUxXNLPvHuEx9HaDP2nGydRkzwfd1zK8uj7WaZPEuckJja6Zy5ZK9r9RPj4kb2pXLkwZqnh2yBPRthmdgy4s1jvbnCUKxYSk4Ejz9kydFvYsk35MDwFx1SgL7YVN2TpsrsCvmCZ1BL8yyMs1a4pd1h5HKn27QvPeNWoDHZmbahget655dhFf75FvoWieUGGceHn5bJ3XxQ3UnibgiuoSLY1gFJMiLhueQkkCdQNUUnYcYtNUbio4XJV2L4QrSh2Zj81pHP1GbiVLg4T9vgMFMmBiyx9xzmdsoHJcyv5Uah9ut2rwkrMPqf8BV4EPJXnVJ2d1a9T7G341KBh93wNwJCL5CfywaBPKuXGZr5AsJv1omBXhhRpdgCeesG4PBhS5tnRaP29dFa3pbFXKfYmsygUwWWeh7ezKpBAkfQ2AMrGJr5NCRSCBGo9e4g8nA4sMVatwKsB1ELGiEKLRPhdy6QUhVXh2xHT23K9hHJREXvkEedR3TxoUoV3iG2m8vBLPsTezzCrJsNXxm4gD6dNR4YufAEXR4YA6uLNMddmeiuCEFthEhiSuupCkXc5cnDBRp8GyKjwvH6heNy6ZxksonU4TuvRvRPVXEaubqE4K84ZZURH9L6LaYGsv3p6s3NjgfoGZMB95fnVutkk8GN5gaFU7iFZffrtEPDoWa5fGSKNSrhchiXgHQaLQWYEe78wfZtVjB6CB3bTtk1abLJ3pzV1U5iy4u5SozWjZugYADyffmQivaWbKddMdebtU9g1RDvD2mSbzmTKTpkZeGopmBsCRQTvYwQU4cNeGLEywAXyoHn9bx61W9ZmdTB3Nk8ZvfoaVVt6BqQ4t3EGqCVvN9vumiZdH61VwQ2pn1xdYgXBaYcRwNofvc67cCWK9ESqcoy5ZpAMCNkNP7p8Yvj4vB2yDw2p4e66Pj1h3Ldpkqptvb8PYywpRNY4AijxAHqncVZcEXnXGWSNXy3bYAxUPvdtY9uimj65PpSr2NN9oojSSLsckxseMtneBfhoutrcZYHg6H8Pn3CGq75m4NppsHxzJRa9mucGbAhQbQavazRx2gAU3m2q8qMcZajgLLUvcUcn1BGkNAY4R7YHtWsxmYuYedgcDXHx3KH8dNvDaKrNTzD5T4jmHu8FZGLTtJxng4JfPXsDZ3nPqDTyMcUkRXi7N7mCshRZUJFFPA4KuBtkZ2eFkzaEDqDz2hf6bWPLCxW9HKCA9g2FvHNJAvhTRCLMq6vLTEjmJkPtwBDfaBquwP3ppjEC8Hd7Zo9VHkQUUJuMJQzgLHBfv4A8BSUrscPFhpK2cVoB7KwndPL8hnwpyPY74g8Te33XLVcUuSAriNsQ2rGanFJDwDr6TWNDnGZCStsffB2GGGBar7QJwa",
+      "type": "Multikey"
     }
-  ],
-  "authentication": [
-    "did:web:rbrazhnyk.github.io:pqc-dids:local-2#11ff36d29be354b2ecd88a4fad9d3895-52bf03a766167fd1"
-  ],
-  "assertionMethod": [
-    "did:web:rbrazhnyk.github.io:pqc-dids:local-2#11ff36d29be354b2ecd88a4fad9d3895-52bf03a766167fd1"
   ]
 }
